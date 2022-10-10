@@ -25,12 +25,6 @@ def quick_sort(array, low, high):
         quick_sort(array, low, pi - 1)
         quick_sort(array, pi + 1, high)
 
-
-# array = [10, 7, 8, 9, 1, 5]
-# quick_sort(array, 0, len(array) - 1)
-#
-# print(f"Sorted array: {array}")
-
 user_input = ""
 inputs = []
 while True:
